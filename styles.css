@@ -1,0 +1,333 @@
+/* .frame461 {
+    width: 1920px;
+    height: 50px;
+    position: relative;
+    border: 1px solid #57CBFF;
+  }
+  
+  .rectangle51 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(90deg, #57CBFF 0%, #199BD5 90%);
+  }
+  
+  .headline {
+    position: absolute;
+    left: 240px;
+    top: 14px;
+    color: white;
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
+  .frame383 {
+    position: absolute;
+    left: 1497px;
+    top: 13px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .facebook11, .twitter11, .googleplus1 {
+    padding: 5px;
+  }
+  
+  .linkedin11 {
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  
+  .vector {
+    background: white;
+    opacity: 0.98;
+  }
+  
+  .vector25, .vector24, .vector23 {
+    width: 1px;
+    height: 20px;
+    background: white;
+  }
+  
+  .vector {
+    width: 10px;
+    height: 20px;
+  }
+  
+  .vector:nth-child(2) {
+    width: 17px;
+    height: 18px;
+  }
+   */
+
+
+   .frame461 {
+ /* Full width */
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #57CBFF;
+    background: linear-gradient(90deg, #57CBFF 0%, #199BD5 90%);
+    padding: 0 100px; /* Adding some padding for content inside */
+  }
+  
+  .headline {
+    color: white;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
+  .frame383 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .facebook11, .twitter11, .googleplus1 {
+    padding: 5px;
+  }
+  
+  .linkedin11 {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .vector {
+    background: white;
+    opacity: 0.98;
+  }
+  
+  .divider {
+    width: 1px;
+    height: 20px;
+    background: white;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+
+  .frame460 {
+   
+    max-width: 1440px; /* Max width for larger screens */
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px; /* Space between logo and navigation */
+    padding: 20px 80px; /* Add some padding to the container */
+}
+
+.tbml011 {
+    width: 200px;
+    height: 48px; /* Logo size */
+}
+
+.frame384 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px; /* Space between nav items */
+}
+
+.nav-item {
+    font-family: Inter, sans-serif; /* Font family for navigation items */
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+.home {
+    color: #57CBFF; /* Highlight color for "Home" */
+}
+
+.about-us, .services, .solution, .case-studies, .faq, .contact-us {
+    color: #393C41; /* Default color for other nav items */
+}
+
+.frame523 {
+    padding: 15px 30px; /* Vertical and horizontal padding */
+    background: linear-gradient(90deg, #57CBFF 0%, #199BD5 90%);
+    border-radius: 15px; /* Rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; /* Space between demo text and arrow */
+}
+
+.request-demo {
+    color: white;
+    font-size: 18px;
+    font-family: Manrope, sans-serif; /* Font family for the button */
+    font-weight: 500;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+.arrow-up-right {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.vector {
+    width: 10px;
+    height: 10px;
+    border: 2px white solid; /* Arrow style */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* mobile responsive */
+
+  /* Responsive for tablets (between 768px and 1024px) */
+@media (max-width: 1024px) {
+    .frame461 {
+        padding: 0 50px; /* Reduce padding for tablets */
+    }
+
+    .headline {
+        font-size: 16px; /* Slightly smaller text */
+    }
+    .frame460 {
+        gap: 70px !important;
+        
+    }
+}
+
+/* Responsive for mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .frame461 {
+        padding: 0 20px; /* Reduce padding for mobile */
+    }
+
+    .headline {
+        font-size: 14px; /* Smaller text for mobile */
+    }
+
+    .frame383 {
+        gap: 10px; /* Reduce gap between social icons */
+    }
+
+    .linkedin11 {
+        width: 18px; /* Smaller icons for mobile */
+        height: 18px;
+    }
+    .frame460 {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: flex-start; /* Align items to the start */
+        gap: 20px; /* Reduce gap */
+    }
+
+    .frame384 {
+        gap: 20px; /* Reduce gap between nav items */
+    }
+
+    .nav-item {
+        font-size: 18px; /* Slightly smaller font size for nav items */
+    }
+
+    .request-demo {
+        font-size: 16px; /* Smaller font size for demo button */
+    }
+
+    .frame523 {
+        width: 100%; /* Make button full width on small screens */
+        justify-content: center; /* Center content */
+    }
+}
+
+/* Very small devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .frame461 {
+        flex-direction: column; /* Stack elements vertically */
+        height: auto; /* Adjust height */
+        padding: 10px; /* Add padding around the whole container */
+        text-align: center; /* Center-align text */
+    }
+
+    .headline {
+        margin-bottom: 10px; /* Add some space between text and icons */
+    }
+
+    .frame383 {
+        gap: 8px; /* Narrow gap for small screens */
+    }
+
+    .linkedin11 {
+        width: 16px; /* Further reduce icon size */
+        height: 16px;
+    }
+
+    .divider {
+        display: none; /* Hide dividers for very small screens */
+    }
+}
