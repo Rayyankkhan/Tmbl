@@ -1,79 +1,13 @@
-/* .frame461 {
-    width: 1920px;
-    height: 50px;
-    position: relative;
-    border: 1px solid #57CBFF;
-  }
-  
-  .rectangle51 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: linear-gradient(90deg, #57CBFF 0%, #199BD5 90%);
-  }
-  
-  .headline {
-    position: absolute;
-    left: 240px;
-    top: 14px;
-    color: white;
-    font-size: 18px;
-    font-family: Inter, sans-serif;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-  
-  .frame383 {
-    position: absolute;
-    left: 1497px;
-    top: 13px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-  }
-  
-  .social-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .facebook11, .twitter11, .googleplus1 {
-    padding: 5px;
-  }
-  
-  .linkedin11 {
-    width: 25px;
-    height: 25px;
-    display: inline-flex;
-    flex-direction: column;
-  }
-  
-  .vector {
-    background: white;
-    opacity: 0.98;
-  }
-  
-  .vector25, .vector24, .vector23 {
-    width: 1px;
-    height: 20px;
-    background: white;
-  }
-  
-  .vector {
-    width: 10px;
-    height: 20px;
-  }
-  
-  .vector:nth-child(2) {
-    width: 17px;
-    height: 18px;
-  }
-   */
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 
    .frame461 {
- /* Full width */
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -131,11 +65,13 @@
     height: 20px;
   }
   
+  .group-1000008247 {
+    width: 100%;
+   
+  }
 
   .frame460 {
-   
-    max-width: 1440px; /* Max width for larger screens */
-    height: 55px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,6 +140,191 @@
 }
 
 
+.bgimg {
+  background-image: url('/assets/images/hero.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+
+.Group1000008250 {
+
+}
+
+.Frame457 {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.Frame386 {
+  padding: 10px 30px;
+  background: rgba(39, 158, 211, 0.1);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Ellipse41 {
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(90deg, #57CBFF 0%, #199BD5 90%);
+  border-radius: 9999px;
+}
+
+.CuttingEdgeTbmlSolutions {
+  color: #57CBFF;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.Frame456 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.Frame455 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.TheWorldSFirstAiPoweredEndToEndTbmlSolution {
+  text-align: center;
+  color: #393C41;
+  font-size: 70px;
+  font-family: Space Grotesk, sans-serif;
+  font-weight: 700;
+  line-height: 90px;
+  word-wrap: break-word;
+}
+
+.highlight {
+  color: #57CBFF;
+}
+
+.WeAreRevolutionizingTradeCompliance {
+ padding: 0 40px;
+  text-align: center;
+  color: #393C41;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+.Frame526 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Frame525 {
+  padding: 15px 30px;
+  background: #FBFBFB;
+  border-radius: 15px;
+  border: 1px solid #57CBFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.RequestADemo {
+  color: #57CBFF;
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.ArrowUpRight {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Vector {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #57CBFF;
+}
+
+.Group1000008248 {
+ 
+}
+
+.Rectangle87 {
+ 
+  background: linear-gradient(90deg, #57CBFF 0%, #199BD5 90%);
+  border-radius: 20px 20px 0 0;
+  border: 1px solid #57CBFF;
+  padding: 30px;
+}
+
+.Frame512 {
+  height: 154px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  margin-top: 32px;
+}
+
+.YourPartnerInTradeCompliance {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: Space Grotesk, sans-serif;
+  font-weight: 600;
+}
+
+.Frame489 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.Frame488, .Frame487, .Frame486, .Frame485 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.B110b, .M {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: Space Grotesk, sans-serif;
+  font-weight: 500;
+}
+
+.TradeVolume, .TradeTransactions, .ProductsProcessed, .TbmlRedFlagScenarios {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
 
 
 
@@ -247,6 +368,52 @@
 
 
   /* mobile responsive */
+  @media (max-width: 1440px) {
+    .frame460 {
+      gap: 20px;
+      padding: 20px 15px;
+    }
+    .frame384 {
+      gap: 20px;
+    }
+    .tbml011 {
+      width: 170px;
+    }
+    .frame523 {
+      padding: 12px 15px;
+      gap: 1px;
+    }
+    .request-demo {
+      font-size: 16px;
+    }
+    .TheWorldSFirstAiPoweredEndToEndTbmlSolution {
+      font-size: 63px;
+    }
+    .Group1000008248 {
+    padding: 0 30px;
+    
+    }
+    .Frame489 {
+      gap: 50px;
+    }
+    .YourPartnerInTradeCompliance {
+      font-size: 24px;
+    }
+    .TradeVolume, .TradeTransactions, .ProductsProcessed, .TbmlRedFlagScenarios {
+      font-size: 18px;
+    }
+
+    .B110b, .M {
+      font-size: 40px;
+    }
+
+    .Frame512 {
+      gap: 30px;
+    }
+    .Rectangle87 {
+      padding: 30px  10px;
+    }
+  }
 
   /* Responsive for tablets (between 768px and 1024px) */
 @media (max-width: 1024px) {
@@ -257,10 +424,32 @@
     .headline {
         font-size: 16px; /* Slightly smaller text */
     }
-    .frame460 {
-        gap: 70px !important;
-        
+
+    .frame384 {
+      gap: 10px;
     }
+
+    .frame460 {
+      gap: 10px;
+    }
+    .nav-item {
+      font-size: 14px;
+    }
+    .tbml011 {
+      width: 140px;
+    }
+    .frame523 {
+      padding: 8px 12px;
+      gap: 1px;
+    }
+    .request-demo {
+      font-size: 13px;
+    }
+    .TheWorldSFirstAiPoweredEndToEndTbmlSolution {
+      font-size: 50px;
+      line-height: 70px;
+    }
+   
 }
 
 /* Responsive for mobile devices (max-width: 768px) */
@@ -283,25 +472,35 @@
     }
     .frame460 {
         flex-direction: column; /* Stack elements vertically on small screens */
-        align-items: flex-start; /* Align items to the start */
+        align-items: center; /* Align items to the start */
         gap: 20px; /* Reduce gap */
     }
 
     .frame384 {
-        gap: 20px; /* Reduce gap between nav items */
+        gap: 12px; /* Reduce gap between nav items */
     }
 
     .nav-item {
-        font-size: 18px; /* Slightly smaller font size for nav items */
+        font-size: 12px; /* Slightly smaller font size for nav items */
     }
 
     .request-demo {
-        font-size: 16px; /* Smaller font size for demo button */
+        font-size: 14px; /* Smaller font size for demo button */
     }
 
     .frame523 {
-        width: 100%; /* Make button full width on small screens */
+        /* Make button full width on small screens */
         justify-content: center; /* Center content */
+    }
+
+    .WeAreRevolutionizingTradeCompliance {
+      font-size: 12px;
+      padding: 0 20px;
+      word-wrap: break-word;
+    }
+
+    .TheWorldSFirstAiPoweredEndToEndTbmlSolution  {
+      font-size: 20px;
     }
 }
 
@@ -313,6 +512,15 @@
         padding: 10px; /* Add padding around the whole container */
         text-align: center; /* Center-align text */
     }
+
+    .frame460 {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .frame384 {
+      display: none; /* Reduce gap between nav items */
+  }
 
     .headline {
         margin-bottom: 10px; /* Add some space between text and icons */
