@@ -534,6 +534,146 @@ body {
 
 
 
+ /* solution section  */
+  .maincontainer {
+    background-color: #F6F6F6;
+    padding: 50px 10px;
+  }
+
+
+  .Frame411 {
+    width: 953px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .Frame410 {
+    height: 189px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .Frame386 {
+    padding: 10px 30px;
+    background: rgba(39, 158, 211, 0.10);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .Ellipse41 {
+    width: 8px;
+    height: 8px;
+    background: linear-gradient(90deg, #57CBFF 0%, #199BD5 90%);
+    border-radius: 9999px;
+  }
+  
+  .TbmlSolutions {
+    text-align: center;
+    color: #57CBFF;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .LeadingTheFightAgainstTradeBasedMoneyLaundering {
+    width: 761px;
+    text-align: center;
+    color: #393C41;
+    font-size: 50px;
+    font-family: Space Grotesk;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 65px;
+    word-wrap: break-word;
+  }
+  
+  .Description {
+    align-self: stretch;
+    text-align: center;
+    color: #393C41;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+  }
+  
+
+  .Container {
+    width: 345px;
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 13px;
+  }
+  
+  .ButtonContainer {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .ButtonPrimary {
+    padding: 8px 20px;
+    width: 330px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background: linear-gradient(90deg, #57CBFF 0%, #199BD5 90%);
+  }
+  
+  .ButtonSecondaryContainer {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .ButtonSecondary {
+    padding: 8px 20px;
+    border-radius: 10px;
+    background: #FBFBFB;
+    border: 1px #57CBFF solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 330px;
+  }
+  
+  .ButtonText {
+    color: #57CBFF; /* Default color for secondary buttons */
+    font-size: 18px;
+    font-family: Poppins; /* Updated font-family */
+    font-weight: 400; /* Updated font-weight */
+    text-transform: capitalize;
+    word-wrap: break-word;
+  }
+  
+  .ButtonPrimary .ButtonText {
+    color: white; /* Color for primary button */
+    font-family: Manrope; /* Updated font-family for primary button */
+    font-weight: 500; /* Updated font-weight for primary button */
+  }
+  
+
+
 
 
 
