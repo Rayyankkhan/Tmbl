@@ -558,15 +558,15 @@ body {
 
 
   .Frame411 {
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 25px;
   }
   
-  .Frame410 {
-    height: 189px;
+  .Frame4101 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -574,8 +574,9 @@ body {
     gap: 15px;
   }
   
-  .Frame386 {
-    padding: 10px 30px;
+  .Frame3866 {
+
+    padding: 8px 20px;
     background: rgba(39, 158, 211, 0.10);
     border-radius: 100px;
     display: flex;
@@ -594,14 +595,14 @@ body {
   .TbmlSolutions {
     text-align: center;
     color: #57CBFF;
-    font-size: 20px;
+    font-size: 16px;
     font-family: Inter;
     font-weight: 400;
     word-wrap: break-word;
   }
   
   .LeadingTheFightAgainstTradeBasedMoneyLaundering {
-    width: 761px;
+    width: 100%;
     text-align: center;
     color: #393C41;
     font-size: 50px;
@@ -711,8 +712,8 @@ body {
   
 
   .frame-container {
-    width: 484px;
-    height: 463px;
+    width: 100%;
+   
     display: inline-flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -772,7 +773,7 @@ body {
   }
   
   .description-text {
-    width: 437px;
+    width: 100%;
     color: #393C41;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
@@ -977,7 +978,7 @@ grid-row-gap: 10px;
 
 .frame-411 {
   align-self: stretch;
-  height: 362px;
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -986,7 +987,7 @@ grid-row-gap: 10px;
 }
 
 .frame-410 {
-  height: 189px;
+  
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -1021,7 +1022,7 @@ grid-row-gap: 10px;
 }
 
 .extending-reach {
-  width: 761px;
+  width: 100%;
   text-align: center;
   color: #393C41;
   font-size: 50px;
@@ -1083,7 +1084,7 @@ grid-row-gap: 10px;
 
 
 .partners-section {
-  width: 472px;
+  width: 100%;
   
   display: inline-flex;
   flex-direction: column;
@@ -1165,7 +1166,7 @@ grid-row-gap: 10px;
 }
 
 .divider-row {
-  width: 466px;
+  width: 100%;
   height: 0px;
   border: 1px #D4D4D4 solid;
 }
@@ -1250,7 +1251,6 @@ grid-row-gap: 10px;
 }
 
 .text-container-494 {
- width: 650px;
  padding: 10px 20px;
   display: inline-flex;
   flex-direction: column;
@@ -1299,7 +1299,7 @@ grid-row-gap: 10px;
   border-radius: 20px;
   padding: 10px 50px;
   width: 60%;
-  height: 260px;
+
   position: absolute;
   top: 0px;
 }
@@ -1423,7 +1423,7 @@ grid-row-gap: 10px;
 
 .YourPartnerInTradeComplianceRegulatoryExcellence {
 
-  width: 1236px; 
+  width: 100%; 
   text-align: center !important; 
   color: #393C41; 
   font-size: 25px; 
@@ -1465,7 +1465,7 @@ grid-row-gap: 10px;
 }
 
 .frame421 {
-  width: 953px;
+  width: 100%;
   height: 213px;
   display: inline-flex;
   flex-direction: column;
@@ -1475,10 +1475,10 @@ grid-row-gap: 10px;
 }
 
 .frame410 {
-  height: 124px;
+
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 15px;
 }
@@ -1637,8 +1637,7 @@ grid-row-gap: 10px;
 
 
 .frame-422 {
-  width: 953px;
-  height: 124px;
+  width: 100%;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -1913,6 +1912,15 @@ ul {
 }
 
 
+ .footdiv1, .footdiv2 {
+  width: 50%;
+
+ }
+
+ .navbarnone {
+  display: flex;
+ }
+
 
 
 
@@ -2113,11 +2121,12 @@ ul {
         width: 18px; /* Smaller icons for mobile */
         height: 18px;
     }
+
     .frame460 {
-        flex-direction: column; /* Stack elements vertically on small screens */
-        align-items: center; /* Align items to the start */
-        gap: 20px; /* Reduce gap */
+      justify-content: space-between;
     }
+    
+
 
     .frame384 {
         gap: 12px; /* Reduce gap between nav items */
@@ -2160,6 +2169,43 @@ ul {
     font-size: 2rem;
   }
 
+  .footdiv1, .footdiv2 {
+    width: 100%;
+  
+   }
+
+   .Frame411 {
+    width: 100%;
+   }
+
+   .heading-vigilance, .heading-efficiency, .heading-client-focus {
+    font-size: 16px;
+   }
+
+   .description-vigilance, .description-efficiency, .description-client-focus {
+    font-size: 12px;
+    line-height: 20px;
+   }
+
+   .text-container-494 {
+    gap: 2px;
+   }
+
+   .gradient-background {
+    width: 95%;
+   }
+
+   .button-block {
+    padding: 10px 15px;
+   }
+
+   .explore-button {
+    font-size: 16px;
+   }
+
+   .navbarnone {
+    display: none;
+   }
 
     
 }
@@ -2241,5 +2287,34 @@ ul {
       grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, 1fr);
     
+    }
+
+    .quicklinks {
+      flex-wrap: wrap;
+    }
+
+    .flex-col {
+      flex-direction: column;
+    }
+
+    .mapimg {
+      width: 200px;
+    }
+
+    .badge-container-386 {
+      padding: 5px 15px;
+    }
+
+    .badge-text-key-highlights {
+      font-size: 12px;
+    }
+
+    .title-technology-strength {
+      font-size: 32px;
+      line-height: 38px;
+    }
+
+    .tech-container {
+      padding: 0 !important;
     }
 }
