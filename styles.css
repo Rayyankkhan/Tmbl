@@ -1,3 +1,8 @@
+@import url('https://fonts.cdnfonts.com/css/manrope');
+@import url('https://fonts.cdnfonts.com/css/inter');
+@import url('https://fonts.cdnfonts.com/css/space-grotesk');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
 
 body {
   width: 100%;
@@ -61,7 +66,7 @@ body {
   .headline {
     color: white;
     font-size: 16px;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     word-wrap: break-word;
   }
@@ -133,7 +138,7 @@ body {
 }
 
 .nav-item {
-    font-family: Inter, sans-serif; /* Font family for navigation items */
+    font-family: 'Inter', sans-serif; /* Font family for navigation items */
     font-size: 18px;
     word-wrap: break-word;
 }
@@ -159,7 +164,7 @@ body {
 .request-demo {
     color: white;
     font-size: 18px;
-    font-family: Manrope, sans-serif; /* Font family for the button */
+    font-family: 'Manrope', sans-serif; /* Font family for the button */
     font-weight: 500;
     text-transform: capitalize;
     word-wrap: break-word;
@@ -227,7 +232,7 @@ body {
 .CuttingEdgeTbmlSolutions {
   color: #57CBFF;
   font-size: 14px;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   word-wrap: break-word;
 }
@@ -251,7 +256,7 @@ body {
   text-align: center;
   color: #393C41;
   font-size: 70px;
-  font-family: Space Grotesk, sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 700;
   line-height: 90px;
   word-wrap: break-word;
@@ -266,7 +271,7 @@ body {
   text-align: center;
   color: #393C41;
   font-size: 20px;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 32px;
   word-wrap: break-word;
@@ -291,7 +296,7 @@ body {
 .RequestADemo {
   color: #57CBFF;
   font-size: 18px;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   text-transform: capitalize;
 }
@@ -336,7 +341,7 @@ body {
   text-align: center;
   color: white;
   font-size: 20px;
-  font-family: Space Grotesk, sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 600;
 }
 
@@ -357,7 +362,7 @@ body {
   text-align: center;
   color: white;
   font-size: 35px;
-  font-family: Space Grotesk, sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
 }
 
@@ -365,7 +370,7 @@ body {
   text-align: center;
   color: white;
   font-size: 16px;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
 
@@ -596,7 +601,7 @@ body {
     text-align: center;
     color: #57CBFF;
     font-size: 16px;
-    font-family: Inter;
+    font-family: 'Inter';
     font-weight: 400;
     word-wrap: break-word;
   }
@@ -606,7 +611,7 @@ body {
     text-align: center;
     color: #393C41;
     font-size: 50px;
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk';
     font-weight: 700;
     text-transform: capitalize;
     line-height: 65px;
@@ -618,7 +623,7 @@ body {
     text-align: center;
     color: #393C41;
     font-size: 20px;
-    font-family: Inter;
+    font-family: 'Inter';
     font-weight: 400;
     line-height: 32px;
     word-wrap: break-word;
@@ -653,7 +658,7 @@ body {
     background: #FBFBFB !important;
     border: 1px #57CBFF solid !important;
     color: #57CBFF !important;
-    font-family: Manrope !important;
+    font-family: 'Manrope' !important;
   }
 
   .ButtonPrimary:active {
@@ -691,7 +696,7 @@ body {
   .ButtonText {
     color: #57CBFF; /* Default color for secondary buttons */
     font-size: 18px;
-    font-family: Poppins; /* Updated font-family */
+    font-family: 'Poppins'; /* Updated font-family */
     font-weight: 400; /* Updated font-weight */
     text-transform: capitalize;
     word-wrap: break-word;
@@ -699,13 +704,13 @@ body {
   
   .ButtonPrimary .ButtonText {
     color: white !important; /* Color for primary button */
-    font-family: Manrope !important; /* Updated font-family for primary button */
+    font-family: 'Manrope' !important; /* Updated font-family for primary button */
     font-weight: 500 !important; /* Updated font-weight for primary button */
   }
 
   .nav-link.active {
     color: white !important;
-    font-family: Manrope !important; /* Updated font-family for primary button */
+    font-family: 'Manrope' !important; /* Updated font-family for primary button */
     font-weight: 500 !important;
     background: linear-gradient(90deg, #57CBFF 0%, #199BD5 90%) !important;
   }
@@ -759,7 +764,7 @@ body {
   .badge-text {
     color: #FF7F50;
     font-size: 20px;
-    font-family: 'Inter', sans-serif;
+    font-family: ''Inter'', sans-serif;
     font-weight: 400;
   }
   
@@ -1016,7 +1021,7 @@ grid-row-gap: 10px;
   text-align: center;
   color: #57CBFF;
   font-size: 20px;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   word-wrap: break-word;
 }
@@ -1038,7 +1043,7 @@ grid-row-gap: 10px;
   text-align: center;
   color: #393C41;
   font-size: 20px;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 20px;
   word-wrap: break-word;
@@ -1061,7 +1066,7 @@ grid-row-gap: 10px;
 .contact-us {
   color: white;
   font-size: 16px;
-  font-family: Manrope, sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 500;
   text-transform: capitalize;
   word-wrap: break-word;
@@ -1427,7 +1432,7 @@ grid-row-gap: 10px;
   text-align: center !important; 
   color: #393C41; 
   font-size: 25px; 
-  font-family: Space Grotesk; 
+  font-family: 'Space Grotesk'; 
   font-weight: 700; 
   text-transform: capitalize; 
   word-wrap: break-word
@@ -1504,7 +1509,7 @@ grid-row-gap: 10px;
   text-align: center;
   color: #57CBFF;
   font-size: 18px;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   word-wrap: break-word;
 }
@@ -1526,7 +1531,7 @@ grid-row-gap: 10px;
   text-align: center;
   color: #393C41;
   font-size: 20px;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 32px;
   word-wrap: break-word;
@@ -1587,7 +1592,7 @@ grid-row-gap: 10px;
   align-self: stretch;
   color: #393C41;
   font-size: 14px;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 22px;
   word-wrap: break-word;
@@ -1630,7 +1635,7 @@ grid-row-gap: 10px;
   text-align: center;
   color: #57CBFF;
   font-size: 12px;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   word-wrap: break-word;
 }
@@ -1677,7 +1682,7 @@ grid-row-gap: 10px;
   text-align: center;
   color: #57CBFF;
   font-size: 16px;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   word-wrap: break-word;
 }
@@ -1717,7 +1722,7 @@ grid-row-gap: 10px;
    
   color: white; 
   font-size: 24px; 
-  font-family: Space Grotesk; 
+  font-family: 'Space Grotesk'; 
   font-weight: 700; 
   text-transform: capitalize; 
   word-wrap: break-word;
