@@ -1085,7 +1085,7 @@ grid-row-gap: 10px;
 
 .partners-section {
   width: 100%;
-  
+  padding: 5px 50px 20px 50px;
   display: inline-flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -1922,6 +1922,9 @@ ul {
  }
 
 
+ .mapimg {
+  width: 500px;
+}
 
 
 
@@ -1951,6 +1954,24 @@ ul {
 
 
 
+@media (min-width: 1441px) {
+  .partners-section {
+    width: 40% !important;
+  }
+
+  .map {
+    width: 40% !important;
+  }
+
+  .frame-4100 {
+    width: 40%;
+  }
+
+  .strategic-partnerships-description {
+    width: 60%;
+    line-height: 32px;
+  }
+}
 
 
 
@@ -2093,9 +2114,7 @@ ul {
       justify-content: center !important;
     }
 
-    .img-container, .tech-container {
-      width: 100%;
-    }
+    
 
     .strategic-partnerships-description {
       font-size: 16px;
@@ -2207,6 +2226,29 @@ ul {
     display: none;
    }
 
+   .mapimg {
+    width: 400px;
+  }
+
+  .partners-section {
+    width: 100% !important;
+    justify-content: start;
+  }
+  
+  .img-container, .tech-container {
+    width: 100% !important;
+  }
+
+  .strategic-partnerships-description {
+    width: 100% !important;
+    padding: 0 !important;
+    
+  }
+
+  .extending-reach {
+    font-size: 30px;
+    line-height: 36px;
+  }
     
 }
 
@@ -2297,9 +2339,7 @@ ul {
       flex-direction: column;
     }
 
-    .mapimg {
-      width: 200px;
-    }
+    
 
     .badge-container-386 {
       padding: 5px 15px;
@@ -2316,5 +2356,9 @@ ul {
 
     .tech-container {
       padding: 0 !important;
+    }
+
+    .mapimg {
+      width: 200px;
     }
 }
