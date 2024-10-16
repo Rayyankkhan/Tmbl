@@ -187,7 +187,7 @@ body {
 
 
 .bgimg {
-  background-image: url('/assets/images/hero.png');
+  background-image: url('./assets/images/hero.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -452,7 +452,7 @@ body {
 .WhoAreWe {
  
   color: #393C41;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 65px;
   text-transform: capitalize;
@@ -462,7 +462,7 @@ body {
 .Description {
   align-self: stretch;
   color: #393C41;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 32px;
   text-align: left;
   font-family: 'Inter';
@@ -480,7 +480,7 @@ body {
 .WhyChooseUs {
   align-self: stretch;
   color: #393C41;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   text-transform: capitalize;
   font-family: 'Space Grotesk';
@@ -499,9 +499,9 @@ body {
 .StateOfTheArtTechnology {
   font-family: 'Inter';
   color: #393C41;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 28px;
     word-wrap: break-word;
   }
 
@@ -622,11 +622,11 @@ body {
     width: 100%;
     text-align: center;
     color: #393C41;
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Space Grotesk';
     font-weight: 700;
     text-transform: capitalize;
-    line-height: 65px;
+    line-height: 35px;
     word-wrap: break-word;
   }
   
@@ -634,7 +634,7 @@ body {
     align-self: stretch;
     text-align: center;
     color: #393C41;
-    font-size: 20px;
+    font-size: 14px;
     font-family: 'Inter';
     font-weight: 400;
     line-height: 32px;
@@ -661,7 +661,7 @@ body {
   
   .ButtonPrimary {
     padding: 8px 20px;
-    width: 330px;
+    width: 290px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -675,7 +675,7 @@ body {
 
   .ButtonPrimary:active {
     padding: 8px 20px;
-    width: 330px;
+    width: 290px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -707,7 +707,7 @@ body {
   
   .ButtonText {
     color: #57CBFF; /* Default color for secondary buttons */
-    font-size: 18px; /* Updated font-family */
+    font-size: 14px; /* Updated font-family */
     font-weight: 400; /* Updated font-weight */
     text-transform: capitalize;
     word-wrap: break-word;
@@ -781,7 +781,7 @@ body {
   
   .title-text {
     color: #393C41;
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
     text-transform: capitalize;
@@ -791,14 +791,14 @@ body {
   .description-text {
     width: 100%;
     color: #393C41;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     line-height: 30px;
   }
   
   .cta-button {
-    padding: 15px 30px;
+    padding: 10px 20px;
     border-radius: 15px;
     border: 1px solid #003366;
     display: inline-flex;
@@ -809,7 +809,7 @@ body {
   
   .cta-text {
     color: #003366;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
     text-transform: capitalize;
@@ -1038,7 +1038,7 @@ grid-row-gap: 10px;
 }
 
 .extending-reach {
-  width: 100%;
+  width: 60%;
   text-align: center;
   color: #393C41;
   font-size: 50px;
@@ -1056,9 +1056,21 @@ grid-row-gap: 10px;
   font-size: 20px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 30px;
   word-wrap: break-word;
   padding: .5rem 6rem;
+  width: 80%;
+}
+
+.right-reserved {
+  width: 100% !important;
+}
+
+
+
+.clientdes {
+  width: 100% !important;
+  text-align: center;
 }
 .strategic-partnerships-description .bold {
   font-weight: 500;
@@ -1481,7 +1493,7 @@ grid-row-gap: 10px;
 }
 
 .frame421 {
-  width: 100%;
+  width: 50%;
   height: 213px;
   display: inline-flex;
   flex-direction: column;
@@ -2273,6 +2285,10 @@ ul {
       justify-content: space-between;
     }
 
+    .extending-reach{
+      width: 100%;
+    }
+
    
 
     .Frame457 {
@@ -2368,6 +2384,46 @@ ul {
     .mapimg {
       width: 200px;
     }
+
+    .strategic-partnerships-description {
+      font-size: 14px !important;
+    }
+
+    .partners-section {
+      width: 100%;
+      padding: 5px 10px 20px 10px;
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 25px;
+    }
+
+    .YourPartnerInTradeComplianceRegulatoryExcellence {
+      padding: 5rem .5rem 0 .5rem ;
+      font-size: 20px;
+    }
+
+    .group {
+      width: 279px;
+      height: 355px !important;
+  }
+
+  .frequently-asked-questions {
+    align-self: stretch;
+    text-align: center;
+    color: #393C41;
+    font-size: 35px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 55px;
+    word-wrap: break-word;
+}
+
+.w-75 {
+  width: 90% !important;
+}
 }
 
 
@@ -2387,6 +2443,7 @@ ul {
   .strategic-partnerships-description {
     width: 60%;
     line-height: 32px;
+    font-size: 14px !important;
   }
 
   .frame421 {
@@ -2396,7 +2453,7 @@ ul {
     width: 761px;
       text-align: center;
       color: #393C41;
-      font-size: 50px;
+      font-size: 50px !important;
       font-family: Space Grotesk;
       font-weight: 700;
       text-transform: capitalize;
@@ -2656,7 +2713,7 @@ ul {
         text-align: center;
         color: #393C41;
         font-size: 20px;
-        font-family: '  ';
+        font-family: 'Inter';
         font-weight: 400;
         line-height: 32px;
         word-wrap: break-word;
@@ -2929,4 +2986,122 @@ ul {
         font-weight: 400;
         word-wrap: break-word;
      }
+
+     .WhoAreWe {
+ 
+      color: #393C41;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 65px;
+      text-transform: capitalize;
+      font-family: 'Space Grotesk';
+    }
+
+    .Description {
+      align-self: stretch;
+      text-align: center;
+      color: #393C41;
+      font-size: 20px;
+      font-family: 'Inter';
+      font-weight: 400;
+      line-height: 32px;
+      word-wrap: break-word;
+    } 
+
+    .WhyChooseUs {
+      align-self: stretch;
+      color: #393C41;
+      font-size: 35px;
+      font-weight: 700;
+      text-transform: capitalize;
+      font-family: 'Space Grotesk';
+    }
+
+    .StateOfTheArtTechnology {
+      font-family: 'Inter';
+      color: #393C41;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 32px;
+        word-wrap: break-word;
+      }
+
+      
+      .ButtonPrimary {
+        padding: 8px 20px;
+        width: 330px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        background: #FBFBFB !important;
+        border: 1px #57CBFF solid !important;
+        color: #57CBFF !important;
+        font-family: 'Manrope' !important;
+      }
+    
+      .ButtonPrimary:active {
+        padding: 8px 20px;
+        width: 330px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        background: linear-gradient(90deg, #57CBFF 0%, #199BD5 90%) !important;
+      }
+    
+    
+      
+      .ButtonSecondaryContainer {
+        align-self: stretch;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      
+      .ButtonSecondary {
+        padding: 8px 20px;
+        border-radius: 10px;
+        background: #FBFBFB;
+        border: 1px #57CBFF solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        width: 330px;
+      }
+      
+      .ButtonText {
+        color: #57CBFF; /* Default color for secondary buttons */
+        font-size: 18px; /* Updated font-family */
+        font-weight: 400; /* Updated font-weight */
+        text-transform: capitalize;
+        word-wrap: break-word;
+      }
+      
+      .ButtonPrimary .ButtonText {
+        color: white !important; /* Color for primary button */
+        font-family: 'Manrope' !important; /* Updated font-family for primary button */
+        font-weight: 500 !important; /* Updated font-weight for primary button */
+      } 
+
+      .cta-text {
+        color: #003366;
+        font-size: 18px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        text-transform: capitalize;
+      }
+  
+      .cta-button {
+        padding: 15px 30px;
+        border-radius: 15px;
+        border: 1px solid #003366;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+      }
 }
