@@ -2774,4 +2774,159 @@ ul {
      .input-group {
       width: 70% !important;
      }
+
+     .YourPartnerInTradeCompliance {
+      width: 1439px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-family: Space Grotesk;
+        font-weight: 600;
+        text-transform: capitalize;
+        word-wrap: break-word;
+     }
+
+     .Frame512 {
+        width: 1439px;
+        height: 230px !important;
+        background: linear-gradient(90deg, #57CBFF 0%, #199BD5 90%);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border: 1px #57CBFF solid;
+     }
+
+     .Frame489 {
+      width: 1439px !important; 
+      height: 110px !important;
+      justify-content: center;
+        align-items: center;
+        gap: 50px !important;
+        display: inline-flex;
+     }
+
+     .Frame488 {
+        width: 345px;
+        height: 98px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        display: inline-flex;
+     }
+
+     .Frame487 {
+        width: 227px;
+        height: 98px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        display: inline-flex;
+     }
+
+     .Frame486 {
+        width: 259px;
+        height: 98px;
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        justify-content: center;
+        align-items: center;
+        
+        display: inline-flex;
+     }
+
+     .Frame485 {
+        width: 302px;
+        height: 98px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        display: inline-flex;
+     }
+
+     .B110b {
+      width: 345px !important;
+     }
+
+     .bo7 {
+      
+        text-align: center;
+        color: white;
+        font-size: 55px;
+        font-family: 'Space Grotesk';
+        font-weight: 500;
+        text-transform: capitalize;
+        word-wrap: break-word
+     }
+     .b011 {
+      color: white;
+        font-size: 55px;
+        font-family: 'Space Grotesk';
+        font-weight: 700;
+        text-transform: capitalize;
+        word-wrap: break-word;
+     }
+
+     .TradeVolume {
+        width: 227px;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        font-family: 'Inter';
+        font-weight: 400;
+        word-wrap: break-word;
+     }
+
+     .ProductsProcessed {
+        width: 259px;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+     }
+
+     .M4 {
+      width: 227px;
+        text-align: center;
+        color: white;
+        font-size: 55px;
+        font-family: 'Space Grotesk';
+        font-weight: 500;
+        text-transform: capitalize;
+        word-wrap: break-word;
+     }
+
+     .M {
+      width: 227px;
+        text-align: center;
+        color: white;
+        font-size: 55px;
+        font-family: 'Space Grotesk';
+        font-weight: 500;
+        text-transform: capitalize;
+        word-wrap: break-word;
+     }
+
+     .TradeTransactions {
+        width: 227px !important;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+     }
+
+     .TbmlRedFlagScenarios {
+      width: 302px;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+     }
 }
