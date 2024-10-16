@@ -456,6 +456,7 @@ body {
   font-weight: 700;
   line-height: 65px;
   text-transform: capitalize;
+  font-family: 'Space Grotesk';
 }
 
 .Description {
@@ -464,6 +465,7 @@ body {
   font-size: 20px;
   line-height: 32px;
   text-align: left;
+  font-family: 'Inter';
 }
 
 .Frame530 {
@@ -481,6 +483,7 @@ body {
   font-size: 35px;
   font-weight: 700;
   text-transform: capitalize;
+  font-family: 'Space Grotesk';
 }
 
 .Frame529 {
@@ -492,6 +495,15 @@ body {
   align-items: flex-start;
   gap: 20px;
 }
+
+.StateOfTheArtTechnology {
+  font-family: 'Inter';
+  color: #393C41;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    word-wrap: break-word;
+  }
 
 .whyFrame523 {
   align-self: stretch;
@@ -695,8 +707,7 @@ body {
   
   .ButtonText {
     color: #57CBFF; /* Default color for secondary buttons */
-    font-size: 18px;
-    font-family: 'Poppins'; /* Updated font-family */
+    font-size: 18px; /* Updated font-family */
     font-weight: 400; /* Updated font-weight */
     text-transform: capitalize;
     word-wrap: break-word;
@@ -764,7 +775,7 @@ body {
   .badge-text {
     color: #FF7F50;
     font-size: 20px;
-    font-family: ''Inter'', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
   }
   
@@ -1549,10 +1560,13 @@ grid-row-gap: 10px;
  
 }
 
-.rectangle {
+.testi-card {
   background: white;
-  box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.10);
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.10);
   border-radius: 20px;
+}
+
+.rectangle {
   padding: 1rem 1.5rem;
 }
 
@@ -1932,55 +1946,39 @@ ul {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 1441px) {
-  .partners-section {
-    width: 40% !important;
-  }
-
-  .map {
-    width: 40% !important;
-  }
-
-  .frame-4100 {
-    width: 40%;
-  }
-
-  .strategic-partnerships-description {
-    width: 60%;
-    line-height: 32px;
-  }
-
-  .frame421 {
-    width: 50%;
-  }
+.text-orange {
+  color: #FF7F50 !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2370,4 +2368,410 @@ ul {
     .mapimg {
       width: 200px;
     }
+}
+
+
+@media (min-width: 1441px) {
+  .partners-section {
+    width: 50% !important;
+  }
+
+  .map {
+    width: 50% !important;
+  }
+
+  .frame-4100 {
+    width: 40%;
+  }
+
+  .strategic-partnerships-description {
+    width: 60%;
+    line-height: 32px;
+  }
+
+  .frame421 {
+    width: 50%;
+  }
+  .LeadingTheFightAgainstTradeBasedMoneyLaundering {
+    width: 761px;
+      text-align: center;
+      color: #393C41;
+      font-size: 50px;
+      font-family: Space Grotesk;
+      font-weight: 700;
+      text-transform: capitalize;
+      line-height: 65px;
+      word-wrap: break-word
+  }
+  .tbmlsol {
+    width: 953px;
+      text-align: center;
+      color: #393C41;
+      font-size: 20px;
+      font-family: Inter;
+      font-weight: 400;
+      line-height: 32px;
+      word-wrap: break-word;
+      }
+
+      .img1920 {
+        width: 518px;
+          height: 529px;
+          transform-origin: 0 0;
+          border-radius: 20px;
+}
+
+.frame-content {
+  width: 484px;
+    height: 373px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+    display: inline-flex;
+  }
+
+.title-text {
+  color: #393C41;
+    font-size: 50px;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 65px;
+    word-wrap: break-word;
+  }
+
+
+  .description-text {
+    width: 437px;
+      color: #393C41;
+      font-size: 20px;
+      font-family: Inter;
+      font-weight: 400;
+      line-height: 32px;
+      word-wrap: break-word;
+      }
+    
+      .heading-text {
+          width: 806px;
+          text-align: center;
+             
+         }
+
+         .main-heading {
+          color: #393C41;
+          font-size: 50px;
+          font-family: Space Grotesk;
+          font-weight: 700;
+          text-transform: capitalize;
+          line-height: 65px;
+          word-wrap: break-word;  
+         }
+
+         .highlighted-heading {
+          color: #57CBFF;
+            font-size: 50px;
+            font-family: Space Grotesk;
+            font-weight: 700;
+            text-transform: capitalize;
+            line-height: 65px;
+            word-wrap: break-word;
+         }
+
+         .extending-reach {
+          width: 761px;
+            text-align: center;
+            color: #393C41;
+            font-size: 50px;
+            font-family: Space Grotesk;
+            font-weight: 700;
+            text-transform: capitalize;
+            line-height: 65px;
+            word-wrap: break-word;
+         }
+
+         .strategic-partnerships-description {
+          width: 953px;
+            text-align: center;
+            padding: 0;        
+          }
+
+          .aksiq {
+            color: #393C41;
+              font-size: 20px;
+              font-family: 'Inter';
+              font-weight: 400;
+              line-height: 32px;
+              word-wrap: break-word;
+          }
+
+          .joinus {
+            color: #393C41;
+              font-size: 20px;
+              font-family: Inter;
+              font-weight: 500;
+              line-height: 32px;
+              word-wrap: break-word;
+          }
+
+          .partners-section {
+            width: 472px !important;
+              height: 764px;
+              flex-direction: column;
+              justify-content: flex-start;
+              align-items: flex-start;
+              gap: 25px;
+              display: inline-flex;
+              padding: 0;
+          }
+
+          .partners-title {
+            align-self: stretch;
+              color: #393C41;
+              font-size: 30px;
+              font-family: 'Space Grotesk';
+              font-weight: 700;
+              text-transform: capitalize;
+              word-wrap: break-word;
+          }
+
+          .partner-country {
+            width: 399px;
+              color: #393C41;
+              font-size: 30px;
+              font-family: 'Space Grotesk';
+              font-weight: 700;
+              text-transform: capitalize;
+              word-wrap: break-word;
+
+          }
+
+          .partner-description {
+            width: 399px;
+              color: #393C41;
+              font-size: 20px;
+              font-family: 'Satoshi';
+              font-weight: 400;
+              line-height: 32px;
+              word-wrap: break-word;
+          }
+
+          .mapimgz {
+            width: 954.08px; height: 574.06px;
+          }
+
+          .keyhighlights-container {
+            width: 1440.76px;
+              height: 736px;
+              justify-content: flex-start;
+              align-items: center;
+              gap: 36px;
+              display: inline-flex;
+          }
+
+          .img-container {
+            width: 710.76px !important; 
+            height: 736px !important;
+          }
+
+        .imgw100 {
+          width: 710.76px; 
+          height: 736px;
+        }
+
+        .tech-container {
+          width: 694px; height: 620px; 
+        }
+
+        .casediv {
+          width: 1196px; height: 429px;
+        }
+
+        .casecenterdiv {
+          width: 953px; height: 276px;
+        }
+
+        .caseStudies {
+          align-self: stretch;
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            font-family: 'Space Grotesk';
+            font-weight: 700;
+            text-transform: capitalize;
+            line-height: 65px;
+            word-wrap: break-word;
+        }
+
+        .expo-text {
+          width: 821px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            font-family: Inter;
+            font-weight: 400;
+            line-height: 32px;
+            word-wrap: break-word;
+        } 
+
+        .my-12 {
+          margin: 10rem 0;
+        }
+
+        .h-1000 {
+          height: 1222px;
+          padding: 18rem 0 0 0 !important;
+        }
+
+     .YourPartnerInTradeComplianceRegulatoryExcellence {
+      width: 1236px;
+        text-align: center;
+        color: #393C41;
+        font-size: 30px;
+        font-family: 'Space Grotesk';
+        font-weight: 700;
+        text-transform: capitalize;
+        word-wrap: break-word;
+     }
+
+     .bank-cards {
+      width: 1440px !important; 
+      height: 597px;
+     }
+
+     .what-our-clients-say {
+      width: 848px;
+        text-align: center;
+        color: #393C41;
+        font-size: 50px;
+        font-family: 'Space Grotesk';
+        font-weight: 700;
+        text-transform: capitalize;
+        line-height: 65px;
+        word-wrap: break-word;
+     }
+
+     .clientdes {
+      width: 953px;
+        text-align: center;
+        color: #393C41;
+        font-size: 20px;
+        font-family: '  ';
+        font-weight: 400;
+        line-height: 32px;
+        word-wrap: break-word;
+     }
+
+     .testi-card {
+      width: 467px; height: 353px; background: white; box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.10); border-radius: 20px
+     }
+
+    
+
+     .inner-test {
+      width: 401px; height: 295px;
+     }
+
+     .quote-text {
+        width: 401px;
+        color: #393C41;
+        font-size: 18px;
+        font-family: 'Inter';
+        font-weight: 400;
+        line-height: 30px;
+        word-wrap: break-word;
+       
+
+     }
+
+     div.name {
+      width: 247px; color: #393C41; font-size: 20px; font-family: Space Grotesk; font-weight: 700; text-transform: capitalize; word-wrap: break-word;
+     }
+
+     div.title {
+      text-align: left !important;
+        color: #57CBFF;
+        font-size: 16px;
+        font-family: 'Inter';
+        font-weight: 400;
+        word-wrap: break-word;
+     }
+
+     .card-mainCon {
+       gap: 20px;
+       
+     }
+
+     .frame-410 {
+      width: 848px; 
+      height: 124px;
+     }
+
+     .frequently-asked-questions {
+      width: 848px;
+        text-align: center;
+        color: #393C41;
+        font-size: 50px;
+        font-family: 'Space Grotesk';
+        font-weight: 700;
+        text-transform: capitalize;
+        line-height: 65px;
+        word-wrap: break-word;
+     }
+
+     .EnE {
+      width: 711px;
+        color: white;
+        font-size: 40px;
+        font-family: Space Grotesk;
+        font-weight: 700;
+        text-transform: capitalize;
+        word-wrap: break-word;
+     }
+
+     .footlogo {
+      width: 345px; height: 60px
+     }
+
+     .newsletter {
+      width: 636px !important; 
+      height: 204px !important;
+      margin: 3rem 0;
+     }
+
+     .quicklinks {
+      width: 100% !important;
+     }
+
+     .home {
+      width: 160px !important; 
+      height: 354px !important;
+     }
+
+     .quicklinks-head {
+        width: 160px;
+          color: white;
+          font-size: 30px;
+          font-family: Space Grotesk;
+          font-weight: 700;
+          text-transform: capitalize;
+          word-wrap: break-word;
+     }
+
+     .quick-text {
+      width: 160px;
+        color: white;
+        font-size: 20px;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+     }
+
+     .right-reserved {
+      width: 1440px !important; 
+     }
+
+     .input-group {
+      width: 70% !important;
+     }
 }
